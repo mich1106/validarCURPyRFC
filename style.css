@@ -1,0 +1,20 @@
+#resultado_rfc {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#resultado_rfc.ok {
+    background-color: green;
+}
+#resultado_curp {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#resultado_curp.ok {
+    background-color: green;
+}
+#color{
+    background-color: aqua;
+}
+

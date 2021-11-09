@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP Y RFC</title>
+</head>
+
+<style>body{background-color: rgb(230, 186, 250);}</style>
+<body>
+
+<section class="rfc">
+    <div>
+    <label>RFC:</label>
+    <input type="text" id="rfc_input" style="width:100%;"
+           oninput="validarInputRFC(this)" 
+           placeholder="Ingrese su RFC">
+    <pre id="resultado_rfc"></pre>
+</section>
+</div>
+    <div>
+    <section class = "curp">
+    <label>CURP:
+        <input type="text" id="curp_input" oninput="validarInputCURP(this)" style="width:100%;" placeholder="Ingrese su CURP">
+    </label>
+    <pre id="resultado_curp"></pre>
+
+</section>
+</div>
+<div>
+<img  src= "fotode3.jpeg" width="700" height="400">
+</div>
+</body>
+<script src="rfc.js"></script>
+<script src="curp.js"></script>
+
+</html>
